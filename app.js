@@ -11,6 +11,7 @@ const pageAccess = (req, res, next) => {
     next();
   }
 };
+console.log("first");
 
 app.use(pageAccess);
 
